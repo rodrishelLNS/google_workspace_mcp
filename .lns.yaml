@@ -1,0 +1,14 @@
+id: google_workspace_mcp
+role: vendored
+owner: external
+status: pinned
+description: serves Google Workspace over MCP; third-party, pinned
+entry: README.md
+
+# The backend process that runs from this tree is declared by
+# lns-workspace-adapter, which owns the relationship to it and translates our
+# port name into the bare PORT this borrowed code reads. Nothing about our
+# conventions is written into a vendored repo, so this file declares no server.
+servers: []
+
+services: []
